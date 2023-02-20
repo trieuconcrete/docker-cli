@@ -1,0 +1,29 @@
+- docker -itd (-d: chạy ngầm, -i: trả về khi gõ command (stdin), -t: hiện cửa sổ dòng lệnh (terminal))
+- docker ps/docker container ls (-a): list running contaienr/list all container
+- docker create/docker container create: tạo mới container
+- docker run/docker container run: chạy container 
+- docker rm/docker container rm: xóa (-f: xóa container chưa stop)
+- docker prune/ docker container prune: xóa tất container đang stop
+- docker start/docker container start: start container (tương tự: stop/restart/pause/unpause/kill=stop)
+- docker logs/docker container logs: hiển thị log của container
+- docker inspect/docker container inspect: hiển thị thông tin chi tiết container
+- docker stats/ docker container stats: hiển thị tài nguyên container
+- docker top/docker container top: hiển thị tiến trình container
+- docker port/docker container port: hiển thị port được map
+- docker diff/docker container diff: hiển thị thay đổi về filesystem
+- docker attach/docker container attach: attach 1 màsn hình cho phép nhập input/hiển thị output
+- docker exec/docker container exec: thực thi 1 câu lệnh trong container đang chạy
+- docker update "" container "": update resource cho container, mở rộng tài nguyên
+- docker cp/docker container cp: copy file giữa host và container
+- docker rename/docker container rename: đổi tên
+- docker export/docker container export: export toàn bộ filesystem in container
+- docker commit: tạo image từ running container
+
+- docker images/docker image ls: list images
+- docker image pull: download image (default: dockerhub)
+- docker image push: push image
+- docker inspect/docker image inspect: hiển thị chi tiết image
+- docker image history: hiển thị lịch sử image 
+- docker image tag: tạo 1 image tag mới
+- docker image save/docker iamge load: save image > file tar (load từ file tar)
+- docker image rm: xóa image
