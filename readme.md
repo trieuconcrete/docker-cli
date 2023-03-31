@@ -23,7 +23,7 @@
 | docker system prune | clean up any resources — images, containers, volumes, and networks |
 | docker system prune -a | To additionally remove any stopped containers and all unused images |
 
-=======================================================================================================================
+================================================================================================
 
 - docker -itd (-d: chạy ngầm, -i: trả về khi gõ command (stdin), -t: hiện cửa sổ dòng lệnh (terminal))
 - docker ps/docker container ls (-a): list running contaienr/list all container
