@@ -52,3 +52,5 @@
 | docker stats | Display a live stream of container(s) resource usage statistics |
 | docker top container-id or name | Display the running processes of a container |
 | docker version | Show the Docker version information |
+| docker system prune | clean up any resources — images, containers, volumes, and networks |
+| docker system prune -a | To additionally remove any stopped containers and all unused images |
